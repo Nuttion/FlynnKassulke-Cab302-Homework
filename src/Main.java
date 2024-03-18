@@ -4,6 +4,7 @@ import obstacles.*;
 import common.*;
 
 class Main {
+
     public static void main(String[] args) {
         // Parse the command line arguments into obstacles
         // and create a map with those obstacles
@@ -25,6 +26,11 @@ class Main {
      * Parses the command line arguments into a HashMap of arguments
      * @param args The command line arguments
      * @return A HashMap of arguments
+     */
+
+    /*
+        Week 1 Homework
+        With each parsed argument, it gets the values of the argument and puts it in its own string array list. It also c
      */
     private static HashMap<String, ArrayList<String>> parseArgs(String[] args) {
         HashMap<String, ArrayList<String>> parsedArgs = new HashMap<>();
