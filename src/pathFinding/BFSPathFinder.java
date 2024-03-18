@@ -8,6 +8,12 @@ import java.util.*;
 /**
  * Represents a pathfinder that uses breadth-first search.
  */
+
+// Week 3.4
+    //This pathfinder class contains both of the pathfinding algorithms
+    //The find path algorithm uses a breadth first path finding algorithm
+    //The get neighbors algorithm creates a path by finding the obstacles
+    //that a right next to the path then continuing the algorithm to find the best path
 public class BFSPathFinder implements GridPathFinder {
     private Map map;
 
