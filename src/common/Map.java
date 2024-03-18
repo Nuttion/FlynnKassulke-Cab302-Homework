@@ -116,6 +116,9 @@ public class Map {
      * @param y The y coordinate of the location
      * @return True if the given location is obstructed by an obstacle, and false otherwise
      */
+
+    // Week 3.5
+        // Check if the location on the map is obstructed
     public boolean isLocationObstructed(int x, int y) {
         return getObstacleAtLocation(x, y) != null;
     }
