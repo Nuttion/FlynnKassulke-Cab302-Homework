@@ -5,6 +5,9 @@ import common.Location;
 /**
  * Represents a guard on the map.
  */
+
+//Week 2.5
+    //The Guard class extends from the LocatableObstacle class and allows for the placement of the Guard obstacle on the map to be correct
 public class Guard extends LocatableObstacle {
     /**
      * Constructs a new Guard object with the given location.
