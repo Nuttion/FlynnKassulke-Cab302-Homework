@@ -67,6 +67,9 @@ class Main {
 
     //Week 2.6
         //The ability to parse and place guards into the map was added
+
+    //Week 4.5
+        //Add the rest of the obstacles to the list of possible obstacles
     public static ArrayList<Obstacle> parseObstacles(HashMap<String, ArrayList<String>> parsedArgs) {
         ArrayList<Obstacle> obstacles = new ArrayList<>();
         for (ObstacleType type : ObstacleType.values()) {
