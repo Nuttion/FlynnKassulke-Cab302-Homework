@@ -7,6 +7,9 @@ package obstacles;
 // Week 2.4
     //The obstacle type enum allows for an enum type to determine different obstacles.
     //From this we set an argumentName as well as the symbol for the obstacle.
+
+// Week 4.1
+    //Add the rest of the obstacle types
 public enum ObstacleType {
     GUARD("g", 'g'),
     FENCE("f", 'f'),
