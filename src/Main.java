@@ -8,6 +8,9 @@ class Main {
     public static void main(String[] args) {
         // Parse the command line arguments into obstacles
         // and create a map with those obstacles
+
+        //Week 2.8
+            //Add the map creation function to the main function as well as the starting and the target variables.
         HashMap<String, ArrayList<String>> parsedArgs = parseArgs(args);
         ArrayList<Obstacle> obstacles = parseObstacles(parsedArgs);
         Map map = new Map(obstacles);
