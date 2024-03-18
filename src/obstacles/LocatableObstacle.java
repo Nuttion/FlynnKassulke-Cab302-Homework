@@ -5,6 +5,9 @@ import common.Location;
 /**
  * Represents an obstacle that can be located on the map.
  */
+
+//Week 2.3
+    //The locatable obstacle class is the base class for all obstacles that have a location
 public abstract class LocatableObstacle implements Obstacle {
     protected final Location location;
 
