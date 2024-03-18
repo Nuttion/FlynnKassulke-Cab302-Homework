@@ -9,6 +9,9 @@ public interface GridPathFinder {
      * @param endLocation The end location
      * @return The path from the start location to the end location
      */
+
+    //Week 3.3
+        //this interface represents the findPath and getNeighbors algorithms
     Path findPath(Location startLocation, Location endLocation);
 
     /**
