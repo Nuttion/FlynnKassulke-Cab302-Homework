@@ -5,6 +5,9 @@ import common.Location;
 /**
  * Represents a fence on the map with a start and end location.
  */
+
+// Week 4.2
+    //Create an obstacle that goes from one start position to an end position.
 public class Fence extends LocatableObstacle {
     private final Location end;
 
