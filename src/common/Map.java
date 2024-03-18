@@ -8,6 +8,10 @@ import java.util.ArrayList;
 /**
  * Represents a map with obstacles.
  */
+
+//Week 2.7
+    //The map class gets the data from all the obstacles as well as the parsed locations for the starting and ending
+    //locations.
 public class Map {
     private final ArrayList<Obstacle> obstacles = new ArrayList<>();
     private final int PADDING = 2;
