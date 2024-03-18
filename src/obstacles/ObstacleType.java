@@ -3,6 +3,10 @@ package obstacles;
 /**
  * Represents the different types of obstacles that can be on the map.
  */
+
+// Week 2.4
+    //The obstacle type enum allows for an enum type to determine different obstacles.
+    //From this we set an argumentName as well as the symbol for the obstacle.
 public enum ObstacleType {
     GUARD("g", 'g'),
     FENCE("f", 'f'),
