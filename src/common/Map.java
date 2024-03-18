@@ -60,6 +60,10 @@ public class Map {
      * @param target The target location
      * @return A string representation of the map with the given start and target locations
      */
+
+    // Week 3.6
+        //Use the pathfinder function to find the best path from the start ot the finish.
+        //Then create the map with the needed parameters
     public String getSolvedMap(Location start, Location target) {
         // Find the path
         GridPathFinder pathFinder = new BFSPathFinder(this);
