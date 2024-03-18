@@ -8,6 +8,10 @@ import java.util.function.Consumer;
 /**
  * Represents a path on the map.
  */
+
+//Week 3.2
+    //In the Path class, we use the collected direction data and use it to draw a path.
+    //it is then done for each piece of th path
 public class Path implements Iterable<Location> {
     private List<Location> inner;
     /**
