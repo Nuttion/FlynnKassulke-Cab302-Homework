@@ -4,6 +4,8 @@ package obstacles;
  * Represents an obstacle that can block some locations on the map,
  * and has a representative symbol
  */
+//Week 2.1
+    //create an interface named obstacle that manages the basic information of the obstacle
 public interface Obstacle {
     /**
      * Returns the symbol that represents the obstacle on the map
