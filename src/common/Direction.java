@@ -1,5 +1,7 @@
 package common;
 
+//Week 3.1
+    //This enum creates the NSEW directions as well calculates what directions the path needs to go with the getDirections function
 public enum Direction {
     NORTH,
     SOUTH,
