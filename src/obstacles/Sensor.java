@@ -6,6 +6,9 @@ import common.Location;
  * Represents a sensor on the map that detects intruders within a certain range
  * in a circular area.
  */
+
+// Week 4.3
+    //The sensor obstacle is created by having an initial location then adding more obstacles within a range of the sensor
 public class Sensor extends LocatableObstacle {
     private final double range;
 
