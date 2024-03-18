@@ -5,6 +5,10 @@ import java.util.Objects;
 /**
  * Represents a location on the map.
  */
+
+//Week 2.2
+    //Create the location class that contains the location of the object as well as the get commands.
+    //Also contains the overrided functions of equals, hashCode and toString to be used in finding and calculation the position.
 public class Location {
     private final int x;
     private final int y;
