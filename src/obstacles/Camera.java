@@ -12,6 +12,9 @@ public class Camera extends LocatableObstacle {
      * @param location The location of the camera
      * @param direction The direction of the camera
      */
+
+    //Week 4.4
+        //The camera obstacle is similar to the sensor obstacle but instead of a range all around it is direction based
     public Camera(Location location, Direction direction) {
         super(location);
         this.direction = direction;
