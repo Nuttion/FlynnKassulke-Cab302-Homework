@@ -30,7 +30,7 @@ class Main {
 
     /*
         Week 1 Homework
-        With each parsed argument, it gets the values of the argument and puts it in its own string array list. It also c
+        With each parsed argument, it gets the values of the argument and puts it in its own string array list.
      */
     private static HashMap<String, ArrayList<String>> parseArgs(String[] args) {
         HashMap<String, ArrayList<String>> parsedArgs = new HashMap<>();
@@ -61,6 +61,9 @@ class Main {
      * Parses the obstacles from the command line arguments
      * @param parsedArgs The parsed arguments
      */
+
+    //Week 2.6
+        //The ability to parse and place guards into the map was added
     public static ArrayList<Obstacle> parseObstacles(HashMap<String, ArrayList<String>> parsedArgs) {
         ArrayList<Obstacle> obstacles = new ArrayList<>();
         for (ObstacleType type : ObstacleType.values()) {
